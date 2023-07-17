@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Brave and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>firefly.munki.Brave</string>
+	<string>com.github.iCanHazSoftware.munki.Brave</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
@@ -21,9 +21,10 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>production</string>
 			</array>
 			<key>description</key>
-			<string> </string>
+			<string>Brave Browser </string>
 			<key>developer</key>
 			<string>Brave Software, Inc.</string>
 			<key>display_name</key>
@@ -37,7 +38,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>firefly.download.Brave</string>
+	<string>com.github.iCanHazSoftware.download.Brave</string>
 	<key>Process</key>
 	<array>
 		<dict>
