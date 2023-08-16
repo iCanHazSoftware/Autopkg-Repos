@@ -32,7 +32,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://releases.sigmaos.com/SigmaOS.dmg</string>
+				<string>https://releases.sigmaos.com/latest/SigmaOS.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
